@@ -1,0 +1,11 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';  // Importa los estilos globales
+import App from './App';  // Importa el componente principal
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')  // Se asegura de que el componente App se monte dentro del elemento 'root'
+);
